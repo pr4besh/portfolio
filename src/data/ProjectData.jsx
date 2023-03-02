@@ -1,7 +1,15 @@
+import luffy from "../assets/luffy.jpg";
+import css from "../assets/skills/css3.svg";
+import git from "../assets/skills/git.svg";
+import html from "../assets/skills/html5.svg";
+import js from "../assets/skills/javascript.svg";
+import react from "../assets/skills/react.svg";
+import responsive from "../assets/skills/responsive.svg";
+
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "./assets/luffy.jpg",
+    img: luffy,
     title: "Pending",
     description: "Pending",
     tech_stack: "Pending",
@@ -9,7 +17,7 @@ export const ProjectList = [
     demo_url: "#",
   },
   {
-    img: "./assets/luffy.jpg",
+    img: luffy,
     title: "Pending",
     description: "Pending",
     tech_stack: "Pending",
@@ -17,7 +25,7 @@ export const ProjectList = [
     demo_url: "#",
   },
   {
-    img: "./assets/luffy.jpg",
+    img: luffy,
     title: "Pending",
     description: "Pending",
     tech_stack: "Pending",
@@ -30,31 +38,31 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "./assets/skills/html5.svg",
+    img: html,
     name: "HTML",
   },
   {
-    img: "./assets/skills/css3.svg",
+    img: css,
     name: "CSS",
   },
   {
-    img: "./assets/skills/javascript.svg",
+    img: js,
     name: "JavaScript",
   },
   {
-    img: "./assets/skills/react.svg",
+    img: react,
     name: "ReactJS",
   },
   {
-    img: "./assets/skills/git.svg",
+    img: react,
     name: "Tailwind",
   },
   {
-    img: "./assets/skills/git.svg",
+    img: git,
     name: "Git",
   },
   {
-    img: "./assets/skills/responsive.svg",
+    img: responsive,
     name: "Responsive",
   },
 ];

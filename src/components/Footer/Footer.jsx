@@ -1,11 +1,12 @@
 import React from "react";
+import wave from "../../assets/footer_wave.svg";
 import styled from "styled-components";
 
 const FooterSection = styled.div`
   width: 100%;
   height: 250px;
   position: relative;
-  background-image: url(./public/footer_wave.svg);
+  background-image: url(${wave});
   background-repeat: no-repeat;
   background-size: cover;
 
