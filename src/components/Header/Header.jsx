@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/sec-logo.png";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
@@ -6,7 +7,7 @@ const Header = ({ toggle }) => {
     <div className='Container'>
       <Nav>
         <Logo to='/'>
-          <img src='./src/assets/sec-logo.png' alt='logo' />
+          <img src={logo} alt='logo' />
         </Logo>
         <NavMenu>
           <NavLink className='menu-item' to='projects' smooth={true}>
