@@ -5,7 +5,7 @@ const FooterSection = styled.div`
   width: 100%;
   height: 250px;
   position: relative;
-  background-image: url(./src/assets/footer_wave.svg);
+  background-image: url(./public/footer_wave.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
