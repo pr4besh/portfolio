@@ -72,18 +72,18 @@ export const HeroLeft = styled.div`
 
   @media (min-width: 576px) {
     h3 {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
 
   @media (min-width: 992px) {
     h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
 
   h5 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgb(119, 119, 121);
     margin-bottom: 1rem;
     font-weight: 400;
@@ -91,13 +91,13 @@ export const HeroLeft = styled.div`
 
   @media (min-width: 576px) {
     h5 {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 
   @media (min-width: 992px) {
     h5 {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   }
 
@@ -164,10 +164,30 @@ export const ScrollDown = styled(LinkScroll)`
   display: flex;
   justify-content: flex-start;
   cursor: pointer;
+  margin-top: 8px;
 
   animation: ${ScrollAnimation} 2s linear 0s infinite;
   @media screen and (max-width: 992px) {
     justify-content: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+    color: #f6f6f6;
+    opacity: 0.98;
+    font-weight: 400;
+  }
+
+  @media (min-width: 576px) {
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    h3 {
+      font-size: 1.8rem;
+    }
   }
 `;
 
@@ -178,8 +198,22 @@ export const ScrollLink = styled.div`
   color: #f6f6f6;
 
   img {
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     margin-left: 6px;
+  }
+
+  @media (min-width: 576px) {
+    img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    img {
+      height: 45px;
+      width: 45px;
+    }
   }
 `;
