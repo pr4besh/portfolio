@@ -26,6 +26,12 @@ const Social = styled.div`
     }
   }
 
+  @media screen and (max-width: 968px) {
+    a {
+      font-size: 1rem;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     display: none;
   }

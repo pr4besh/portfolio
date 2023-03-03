@@ -4,6 +4,7 @@ import { Link as LinkScroll } from "react-scroll";
 export const HeroContainer = styled.div`
   margin-right: auto;
   margin-left: auto;
+  margin-top: 0.7rem;
   display: flex;
   flex-direction: column;
 
