@@ -89,7 +89,7 @@ video {
 .PrimaryBtn:hover {
   background: #fff;
   color: #010606;
-  border: none;
+  border: 1px solid #fff;
 }
 
 .SecondarBtn:hover {

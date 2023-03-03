@@ -2,7 +2,6 @@ import styled, { keyframes } from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
-  padding: 1.2rem;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -11,13 +10,19 @@ export const HeroContainer = styled.div`
   @media (min-width: 576px) {
     max-width: 540px;
   }
+
   @media (min-width: 768px) {
+    padding: 1rem;
     max-width: 720px;
   }
+
   @media (min-width: 992px) {
+    padding: 1.2rem;
     max-width: 960px;
   }
+
   @media (min-width: 1200px) {
+    padding: 1.2rem;
     max-width: 1000px;
   }
 `;
@@ -40,30 +45,79 @@ export const HeroLeft = styled.div`
   flex: 1;
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 1.5rem;
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 400;
+  }
+
+  @media (min-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 400;
   }
 
+  @media (min-width: 576px) {
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
   h5 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgb(119, 119, 121);
     margin-bottom: 1rem;
     font-weight: 400;
   }
 
+  @media (min-width: 576px) {
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    h5 {
+      font-size: 1.5rem;
+    }
+  }
+
   p {
-    font-size: 16px;
+    font-size: 1rem;
+    padding: 0 8px;
     color: #f6f6f6;
     opacity: 0.85;
+  }
+
+  @media (min-width: 576px) {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    p {
+      font-size: 1.4rem;
+    }
   }
 
   .name {
@@ -84,8 +138,15 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 400px;
   width: auto;
+
+  @media (min-width: 576px) {
+    height: 400px;
+  }
+
+  @media (min-width: 992px) {
+    height: 400px;
+  }
 `;
 
 const ScrollAnimation = keyframes`

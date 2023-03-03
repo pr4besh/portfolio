@@ -1,6 +1,8 @@
 // !Import images for Projjects section
-import luffy from "../assets/luffy.jpg";
 import calorimeter from "../assets/calorimeter.png";
+import project1 from "../assets/project_1.png";
+import project2 from "../assets/project_2.png";
+import project3 from "../assets/project_3.png";
 
 // !Import Images for Skills Section
 import css from "../assets/skills/css3.svg";
@@ -24,17 +26,28 @@ export const ProjectList = [
     demo_url: "https://calorimeter.vercel.app",
   },
   {
-    img: luffy,
+    img: project1,
     title: "Pending",
-    description: "Pending",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi tenetur illum labore aspernatur eveniet.",
     tech_stack: "Pending",
     github_url: "#",
     demo_url: "#",
   },
   {
-    img: luffy,
+    img: project2,
     title: "Pending",
-    description: "Pending",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repudiandae delectus ex voluptas ipsum architecto.",
+    tech_stack: "Pending",
+    github_url: "#",
+    demo_url: "#",
+  },
+  {
+    img: project3,
+    title: "Pending",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consectetur, cumque facilis perspiciatis aspernatur consequatur.",
     tech_stack: "Pending",
     github_url: "#",
     demo_url: "#",
