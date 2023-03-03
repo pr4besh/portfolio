@@ -77,7 +77,7 @@ export const HeroLeft = styled.div`
   }
 
   @media (min-width: 992px) {
-    h1 {
+    h3 {
       font-size: 2rem;
     }
   }
@@ -97,7 +97,7 @@ export const HeroLeft = styled.div`
 
   @media (min-width: 992px) {
     h5 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
   }
 
@@ -108,15 +108,10 @@ export const HeroLeft = styled.div`
     opacity: 0.85;
   }
 
-  @media (min-width: 576px) {
-    p {
-      font-size: 1.2rem;
-    }
-  }
-
   @media (min-width: 992px) {
     p {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
+      padding: 0;
     }
   }
 
