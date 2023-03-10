@@ -89,7 +89,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className='btn resume-btn'
-          href='https://github.com/gurupawar/'
+          href='#'
           target='_blank'
           rel='noopener noreferrer'
         >

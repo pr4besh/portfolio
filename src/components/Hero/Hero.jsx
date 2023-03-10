@@ -30,7 +30,7 @@ function Hero() {
               I'm <span className='name'>Prabesh Thapa.</span>
             </h1>
             <h5>Frontend Developer</h5>
-            <p>Just an introvert trying to code beautiful things.</p>
+            {/* <p>Just an introvert trying to code beautiful things.</p> */}
           </HeroLeft>
           <HeroRight>
             <Image src={character} alt='Character hero' />
