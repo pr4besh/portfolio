@@ -116,8 +116,23 @@ export const HeroLeft = styled.div`
     }
   }
 
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+
+    to {
+      background-position: -200% center;
+    }
+  }
+
   .name {
-    color: gold;
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(to right, gold, #f7f135, #f0f0f0, #f1903a);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
   }
 
   @media screen and (max-width: 992px) {
