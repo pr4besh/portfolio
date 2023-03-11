@@ -46,7 +46,7 @@ export const HeroLeft = styled.div`
   flex: 1;
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 400;
@@ -54,18 +54,18 @@ export const HeroLeft = styled.div`
 
   @media (min-width: 576px) {
     h1 {
-      font-size: 2rem;
+      font-size: 2.3rem;
     }
   }
 
   @media (min-width: 992px) {
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.6rem;
     }
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 400;
@@ -73,18 +73,18 @@ export const HeroLeft = styled.div`
 
   @media (min-width: 576px) {
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
   }
 
   @media (min-width: 992px) {
     h3 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
   }
 
   h5 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: rgb(119, 119, 121);
     margin-bottom: 1rem;
     font-weight: 400;
@@ -92,13 +92,13 @@ export const HeroLeft = styled.div`
 
   @media (min-width: 576px) {
     h5 {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 
   @media (min-width: 992px) {
     h5 {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
   }
 
