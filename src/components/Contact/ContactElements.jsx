@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  margin: 5rem 0;
+  margin: 4.2rem 0;
 `;
 
 export const Email = styled.div`
@@ -11,21 +11,21 @@ export const Email = styled.div`
   justify-content: space-around;
 
   span {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
   }
 
   @media (min-width: 576px) {
     span {
-      font-size: 1.5rem;
+      font-size: 2.2rem;
     }
   }
   @media (min-width: 992px) {
     flex-direction: row;
     span {
       margin-bottom: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
   }
 `;

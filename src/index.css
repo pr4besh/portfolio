@@ -65,7 +65,7 @@ video {
 }
 
 .btn {
-  border: 2px solid rgb(57, 134, 250);
+  border: 1px solid #0a0a0b;
   padding: 10px 1rem;
   border-radius: 5px;
   cursor: pointer;
@@ -75,7 +75,7 @@ video {
 }
 
 .PrimaryBtn {
-  background: rgb(57, 134, 250);
+  background: #0a0a0b;
   color: #f6f6f6;
 }
 
@@ -89,11 +89,11 @@ video {
 .PrimaryBtn:hover {
   background: #fff;
   color: #010606;
-  border: 1px solid #fff;
+  border: 1px solid #000;
 }
 
 .SecondarBtn:hover {
-  background: rgb(57, 134, 250);
+  background: #0a0a0b;
   color: #fff;
 }
 
