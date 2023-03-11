@@ -65,7 +65,7 @@ export const HeroLeft = styled.div`
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 400;
@@ -73,13 +73,13 @@ export const HeroLeft = styled.div`
 
   @media (min-width: 576px) {
     h3 {
-      font-size: 1.3rem;
+      font-size: 1.6rem;
     }
   }
 
   @media (min-width: 992px) {
     h3 {
-      font-size: 1.6rem;
+      font-size: 1.9rem;
     }
   }
 
@@ -102,42 +102,9 @@ export const HeroLeft = styled.div`
     }
   }
 
-  // p {
-  //   font-size: 1rem;
-  //   padding: 0 8px;
-  //   color: #f6f6f6;
-  //   opacity: 0.85;
-  // }
-
-  // @media (min-width: 992px) {
-  //   p {
-  //     font-size: 1.2rem;
-  //     padding: 0;
-  //   }
-  // }
-
   .name {
     color: gold;
   }
-
-  // @keyframes background-pan {
-  //   from {
-  //     background-position: 0% center;
-  //   }
-
-  //   to {
-  //     background-position: -200% center;
-  //   }
-  // }
-
-  // .name {
-  //   animation: background-pan 3s linear infinite;
-  //   background: linear-gradient(to right, gold, #f7f135, #f0f0f0, #f1903a);
-  //   background-size: 200%;
-  //   -webkit-background-clip: text;
-  //   -webkit-text-fill-color: transparent;
-  //   white-space: nowrap;
-  // }
 
   @media screen and (max-width: 992px) {
     text-align: center;
@@ -154,6 +121,7 @@ export const HeroRight = styled.div`
 
 export const Image = styled.img`
   width: auto;
+  margin-bottom: 1.2rem;
 
   @media (min-width: 576px) {
     height: 400px;
