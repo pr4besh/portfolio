@@ -62,7 +62,7 @@ function Hero() {
             <h1>
               I'm <span className='name'>Prabesh Thapa.</span>
             </h1>
-            <h5>Frontend Developer</h5>
+            <h5>Web Developer</h5>
             {/* <p>Just an introvert trying to code beautiful things.</p> */}
           </HeroLeft>
           <HeroRight>

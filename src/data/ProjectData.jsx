@@ -1,6 +1,6 @@
 // !Import images for Projjects section
 import calorimeter from "../assets/calorimeter.png";
-import project1 from "../assets/project_1.png";
+import manual from "../assets/javascript-manual.png";
 import project2 from "../assets/project_2.png";
 import project3 from "../assets/project_3.png";
 
@@ -22,17 +22,17 @@ export const ProjectList = [
     description:
       "Calorimeter helps you to set your daily calories limit and track your calories gained or loss during your meals and workouts.",
     tech_stack: "HTML, CSS, JavaScript",
-    github_url: "https://github.com/prabesh-np/calorimeter",
+    github_url: "https://github.com/pr4besh/calorimeter",
     demo_url: "https://calorimeter.vercel.app",
   },
   {
-    img: project1,
-    title: "Pending",
+    img: manual,
+    title: "JavaScript Manual",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi tenetur illum labore aspernatur eveniet.",
-    tech_stack: "Pending",
-    github_url: "#",
-    demo_url: "#",
+      "JavaScript Manual is where I have documented all my learning throughout my journey of learning JavaScript. I believe this website can be helpful for anyone as a refresher or a guide.",
+    tech_stack: "CMS, Hugo",
+    github_url: "https://github.com/pr4besh/javascript-manual",
+    demo_url: "https://javascript-manual.netlify.app/",
   },
   {
     img: project2,
