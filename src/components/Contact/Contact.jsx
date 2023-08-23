@@ -8,7 +8,7 @@ function Contact() {
         <div className='SectionTitle'>Get In Touch</div>
         <div className='BigCard'>
           <Email>
-            <span>iamprabesh@proton.me</span>
+            <span>this.prabesh@gmail.com</span>
             <a
               className='btn PrimaryBtn'
               href='mailto:iamprabesh@proton.me'
