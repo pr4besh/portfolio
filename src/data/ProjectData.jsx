@@ -36,12 +36,12 @@ export const ProjectList = [
   },
   {
     img: project2,
-    title: "Pending",
+    title: "NZ Cleaning Services Limited",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repudiandae delectus ex voluptas ipsum architecto.",
-    tech_stack: "Pending",
-    github_url: "#",
-    demo_url: "#",
+      "This is a professional website I developed for a cleaning comany based in Auckland, New Zealand.",
+    tech_stack: "React",
+    github_url: "https://github.com/pr4besh/nz-cleaning",
+    demo_url: "https://aucklandcleaningservices.com",
   },
   {
     img: project3,
