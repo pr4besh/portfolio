@@ -11,7 +11,7 @@ function Contact() {
             <span>this.prabesh@gmail.com</span>
             <a
               className='btn PrimaryBtn'
-              href='mailto:iamprabesh@proton.me'
+              href='mailto:this.prabesh@gmail.com'
               target='_blank'
               rel='noopener noreferrer'
             >
