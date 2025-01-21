@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import resume from "../../assets/Resume.pdf";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
@@ -23,7 +24,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className='btn resume-btn'
-            href='#'
+            href={resume}
             target='_blank'
             rel='noopener noreferrer'
           >
